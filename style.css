@@ -51,10 +51,12 @@ article {
 
 article h2 {
   color: black;
+  font-size: 1.5em;
 }
 
 article h3 {
   color: #3d4243;
+  font-size: 1.15em;
 }
 
 article img {
@@ -68,7 +70,8 @@ article p {
   left: 0;
   right: 0;
   padding: 0 12px;
-  font-size: 13px;
+  /*font-size: 13px;*/
+  font-size: 10px;
   opacity: 0;
   transition: opacity 0.3s ease-in-out;
   background: rgba(7, 26, 57, 0.7);
@@ -84,10 +87,29 @@ article:hover, article:focus {
   background-color: rgba(7, 26, 57, 0.7);
 }
 
-#end_text {
+#scroll_description {
   background:black;
   padding: 10px 50px;
   margin: 10px 0 0;
+}
+
+.row {
+}
+
+.col {
+  background: white;
+  padding: 10px;
+  margin: 10px 10px;
+}
+
+.col p {
+  padding: 10px 0;
+  color: black;
+}
+
+.col h2 {
+  padding: 10px;
+  background-color: #00c7fd;
 }
 
 @media (max-width:600px) {
