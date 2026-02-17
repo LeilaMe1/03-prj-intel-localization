@@ -94,10 +94,11 @@ article:hover, article:focus {
 }
 
 .row {
+  box-shadow: 0 0 10px #3d4243;
 }
 
 .col {
-  background: white;
+  background-color: rgba(255, 255, 255, 0.8);
   padding: 10px;
   margin: 10px 10px;
 }
@@ -112,6 +113,31 @@ article:hover, article:focus {
   background-color: #00c7fd;
 }
 
+button {
+  margin: 0 0px 10px;
+}
+
+#subscription {
+  flex-direction: column;
+  background-color: rgba(255, 255, 255, 0.7);
+  margin-bottom: 20px;
+  border-radius: 10px;;
+}
+
+#subscription label {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  padding: 20px 50px 10px;
+  border-top-style: solid;
+  border-width: 15px;
+  border-color: #00c7fd;
+}
+
 @media (max-width:600px) {
   section {
     flex-direction: column;
@@ -123,3 +149,17 @@ article:hover, article:focus {
   }
   
 }
+
+@media (max-width:1000px) {
+  .row {
+    flex-direction: column;
+  }
+}
+
+/**
+@media (min-width:1030px) {
+  header, #scroll_description {
+    padding: 20px 150px 10px;
+  }
+}
+  */
